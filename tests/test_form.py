@@ -3,6 +3,9 @@ import os
 
 
 def test_form():
+    #открытие браузера
+    browser.open('/automation-practice-form')
+
     #заполнение полей: Name, Email, Gender, Mobile
     browser.element('[id = firstName]').type('Ivan')
     browser.element('[id = lastName]').type('Ivanovich')
